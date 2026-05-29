@@ -167,12 +167,12 @@ http_requests_total{job="chat-backend"}
 Слева: **Dashboards - Browse - Lab7 - Chat Backend**
 
 | Панель | Что проверять |
-| HTTP RPS by route | Линия `/health` с ненулевыми значениями |
-| HTTP latency p95 by route | Значения в секундах |
-| Chat message rate | Ненулевое значение если отправляли сообщения |
-| Active users | Число подключённых пользователей |
-| HTTP error rate | 0 или близко к нулю |
-| Total messages sent | Ненулевой счётчик |
+| HTTP RPS by route | Линия `/health` с ненулевыми значениями |  
+| HTTP latency p95 by route | Значения в секундах |  
+| Chat message rate | Ненулевое значение если отправляли сообщения |  
+| Active users | Число подключённых пользователей |  
+| HTTP error rate | 0 или близко к нулю |  
+| Total messages sent | Ненулевой счётчик |  
 
 Сгенерировать ещё запросы и подождать буферизацию:
 
